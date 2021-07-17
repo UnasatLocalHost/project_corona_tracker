@@ -1,0 +1,37 @@
+body {
+  /* background-color: rgb(250, 250,250); */
+  background: #659999;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #f4791f, #659999);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #f4791f, #659999); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.image {
+  width: 370px;
+  margin-top: 50px;
+}
+
+@media only screen and (max-width: 770px) {
+  .container {
+    margin: 0 10%;
+  }
+
+  .image {
+    width: 100%;
+  }
+}
+
+@import url('https:/fonts.googleleapis.com/css2?family=Sora&display=swap');
+*{
+  font-family: 'Sora',sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
