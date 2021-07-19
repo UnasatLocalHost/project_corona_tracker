@@ -17,7 +17,7 @@ const WrapperGrid = styled.div`
 
 const ContactForm = () => (
     <div>
-        <h3>Email Us</h3>
+        <h2>Email Us</h2>
         <Form>
             <WrapperGrid>
                 <Label>Name</Label>

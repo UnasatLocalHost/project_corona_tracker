@@ -13,7 +13,7 @@ const NavBar = () => {
                 
                 <NavLink to="/dispensatie" activeStyle>Dispensatie Aanvraag</NavLink>
                 <NavLink to="/registratie" activeStyle>Registratie Vaccine</NavLink>
-                <NavLink  to="/nieuws" activeStyle>Nieuws</NavLink>
+                <NavLink  to="/nieuws" activeStyle>FAQ</NavLink>
                 <NavLink to="/contact" activeStyle>Contact Us</NavLink>
                 </NavMenu>
                 <NavBtn>

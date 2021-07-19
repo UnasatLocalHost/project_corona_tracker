@@ -7,7 +7,7 @@ import CompanyInfo from "./PageFormViews/CompanyInfo";
 import ContactForm from "./PageFormViews/ContactForm";
 
 const StyledBody = Styled.div`
-background : url('https://i.pinimg.com/originals/74/99/d3/7499d36931199baf23250ea3ba0655e2.jpg');
+background : url('https://www.ncsc.org/__data/assets/image/0023/32954/educ-careers.jpg');
 background-size: cover;
 position: fixed;
 top: 0;
