@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Label from "./PageForm/PageFormComponents/Label";
+import Iframe from "react-iframe";
 
 const StyledBody = styled.div`
   background: url("https://www.unc.edu/wp-content/uploads/2021/03/vaccine.jpg");
@@ -106,7 +107,22 @@ const StyledFieldset = styled.fieldset`
 export default function Registratie() {
   return (
     <StyledBody>
-      <StyledFormWrapper>
+      <Iframe
+        width="1920x"
+        height="1080"
+        margin="auto"
+        url="https://forms.office.com/Pages/ResponsePage.aspx?id=FOkoYZsMhE24SPMY__cUAjsbI9YzR0NLotG3RE8g5_tUMUNHVkU0NlpPR0pSS0tRVDBIMU5MVzY4Ri4u&embed=true"
+        frameborder="0"
+        marginwidth="0"
+        marginheight="0"
+        style="border: none; max-width:100%; max-height:100vh"
+        allowfullscreen
+        webkitallowfullscreen
+        mozallowfullscreen
+        msallowfullscreen
+      ></Iframe>
+
+      {/* <StyledFormWrapper>
         <StyledForm>
           <h2>Registratie Form</h2>
           <Label htmlFor="name">Voornaam</Label>
@@ -325,7 +341,7 @@ export default function Registratie() {
             Register
           </StyledButton>
         </StyledForm>
-      </StyledFormWrapper>
+      </StyledFormWrapper> */}
     </StyledBody>
   );
 }
