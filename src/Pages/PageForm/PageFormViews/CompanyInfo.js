@@ -40,7 +40,7 @@ const CompanyInfo = () => (
   <WrapperCompanyInfo>
     <CompanyName>Covid19Su</CompanyName>
     <WrapperList>
-      <li>Address: █ ████ ██ ███████ </li>
+      <li>Address: GroovesStreet</li>
       <li>Phone Number: 597 563713 </li>
       <li>Email : covid19suTeam5@gmail.com</li>
     </WrapperList>
