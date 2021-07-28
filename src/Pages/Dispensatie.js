@@ -1,9 +1,10 @@
 import React from "react";
 import styled, { createGlobalStyle, css } from "styled-components";
 import Label from "./PageForm/PageFormComponents/Label";
+import Iframe from "react-iframe";
 
 const StyledBody = styled.div`
-  background: url("https://images.unsplash.com/photo-1497032628192-86f99bcd76bc?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8d29ya3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80");
+  // background: url("");
   background-size: cover;
   position: fixed;
   top: 0;
@@ -97,15 +98,15 @@ const StyledFieldset = styled.fieldset`
 `;
 
 const styledError = styled.div`
-color: red;
-font-weight: 800;
-margin: 0 0 40px 0;
+  color: red;
+  font-weight: 800;
+  margin: 0 0 40px 0;
 `;
 
 export default function Dispensatie() {
   return (
     <StyledBody>
-      <GlobalStyle />
+      {/* <GlobalStyle />
       <StyledFormWrapper>
         <StyledForm>
           <h2>Dispensatie Form</h2>
@@ -137,7 +138,21 @@ export default function Dispensatie() {
           </styledError>
           <StyledButton type="submit">Request Dispensatie</StyledButton>
         </StyledForm>
-      </StyledFormWrapper>
+      </StyledFormWrapper> */}
+
+      <Iframe
+        width="1920px"
+        height="1080px"
+        url="https://forms.office.com/Pages/ResponsePage.aspx?id=FOkoYZsMhE24SPMY__cUAjsbI9YzR0NLotG3RE8g5_tURVJJOVpKVldXTFNMNUtYQjBNRTBDRllXRC4u&embed=true"
+        frameborder="0"
+        marginwidth="0"
+        marginheight="0"
+        style="border: none; max-width:100%; max-height:100vh"
+        allowfullscreen
+        webkitallowfullscreen
+        mozallowfullscreen
+        msallowfullscreen
+      ></Iframe>
     </StyledBody>
   );
 }

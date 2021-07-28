@@ -4,7 +4,7 @@ import Label from "./PageForm/PageFormComponents/Label";
 import Iframe from "react-iframe";
 
 const StyledBody = styled.div`
-  background: url("https://www.unc.edu/wp-content/uploads/2021/03/vaccine.jpg");
+  // background: url("");
   background-size: cover;
   filter: blur(8px);
   -webkit-filter: blur(0px);
