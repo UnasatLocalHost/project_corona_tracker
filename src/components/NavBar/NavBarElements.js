@@ -11,10 +11,10 @@ background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+
 
 height: 70px;
 display: flex;
-justify-content: space-between;
+
 padding: 0.5 rem calc((100vw-1000ox) /2);
 z-index:10;
-
+justify-content: flex-start;
 `;
 
 export const NavLink = styled(Link)`
@@ -33,6 +33,7 @@ cursor: pointer:
 
 export const Bars = styled(FaBars)`
 display: none;
+
 color: #fff;
 @media screen and (max-width: 767px) {
     display: block;
@@ -49,8 +50,9 @@ color: #fff;
 export const NavMenu = styled.div`
 display: flex;
 align-items: center;
-margin-right: -24px;
-
+margin-right: -50px;
+width: 98vw;
+white-space:nowrap;
 
 @media screen and (max-width: 768px) {
     display: none;
@@ -59,7 +61,9 @@ margin-right: -24px;
 export const NavBtn = styled.nav`
 display: flex;
 align-items: center;
-margin-right: 24px;
+margin-right: 20px;
+
+justify-content:flex-end;
 
  @media screen and (max-width 768px) {
      display: none;

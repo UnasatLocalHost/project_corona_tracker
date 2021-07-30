@@ -9,6 +9,8 @@ import Dispensatie from "./Pages/Dispensatie";
 import Registratie from "./Pages/Registratie";
 import Contact from "./Pages/PageForm/Contact";
 import Nieuws from "./Pages/Nieuws";
+import Fill from "./Pages/Fill";
+
 
 class App extends React.Component {
   state = {
@@ -33,6 +35,9 @@ class App extends React.Component {
 
     return (
       <div className={styles.container}>
+
+
+      
         <Router>
           <NavBar />
           <Switch>
@@ -55,6 +60,9 @@ class App extends React.Component {
             </Route>
             <Route path="/nieuws">
               <Nieuws />
+            </Route>
+            <Route path="/fill">
+              <Fill/>
             </Route>
           </Switch>
         </Router>
